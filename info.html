@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Info - Fit for Fun Fitness Club</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <main>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="classes.html">Classes</a></li>
+          <li><a href="info.html">Info</a></li>
+        </ul>
+      </nav>
+      <div class="signUp">
+        <form class="signUpForm" action="thankyou-1.html" method="get">
+          <label for="fName">
+            First Name: <input type="text" name="fName" id="fName" required placeholder="First Name">
+          </label>
+          <label for="lName">
+            Last Name: <input type="text" name="lName" id="lName" required placeholder="Last Name">
+          </label>
+          <label for="email">
+            Email: <input type="email" name="email" id="email" required placeholder="Email">
+          </label>
+          <label for="phoneNum">
+            Phone #: <input type="text" name="phoneNum" id="phoneNum" required placeholder="Phone #">
+          </label>
+          <label for="bestCont">
+            Best Contact Method? <select name="bestCont" id="bestCont">
+              <option value="phoneC">Phone</option>
+              <option value="emailC">Email</option>
+            </select>
+          </label>
+          <label for="ClassA">
+            Personal Trainer? <input type="checkbox" name="ClassA" id="ClassA">
+          </label>
+          <label for="ClassB">
+            Yoga? <input type="checkbox" name="ClassB" id="ClassB">
+          </label>
+          <label for="ClassC">
+            Boxing? <input type="checkbox" name="ClassC" id="ClassC">
+          </label>
+          <label for="amClass">
+            AM <input type="radio" name="classTime" id="amClass">
+          </label>
+          <label for="pmClass">
+            PM <input type="radio" name="classTime" id="pmClass">
+          </label>
+          <label for="submit">
+            <input type="submit" name="submit" id="submit">
+          </label>
+        </form>
+      </div>
+    </main>
+  </body>
+</html>
